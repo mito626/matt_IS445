@@ -1,7 +1,8 @@
-﻿<head>
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
     <title></title>
     <style type="text/css">
-
         .rule {
             height: 8px;
             background-color: #01DF01;
@@ -12,14 +13,14 @@
             font-family: "Comic Sans MS";
             font-weight: normal;
         }
-        .auto-style10
-        {
-            text-align: center;
-            font-family: "Comic Sans MS";
-        }
         .auto-style12
         {
             text-align: left;
+        }
+        .auto-style13
+        {
+            text-align: left;
+            font-family: "Comic Sans MS";
         }
         </style>
 </head>
@@ -27,16 +28,16 @@
         <header>
         <h1 class="auto-style8">Ito, Matt Homework 2</h1>
         <hr class="rule" />
-            <nav class="auto-style10">
+            <nav class="auto-style13">
                 <a href="http://Matt-is445-homework2.azurewebsites.net/index.html">Home</a> |
                 <a href="http://Matt-is445-homework2.azurewebsites.net/webformdemo.html">Web Form Demo</a> |
                 <a href="http://Matt-is445-homework2.azurewebsites.net/aboutme.html">About Me</a>
             </nav>
     </header>
-    <h2 class="auto-style5">
+    <h2 class="auto-style12">
         Welcome to My Web Form</h2>
 
-    <h3 class="auto-style5">A demo form for hotel room reservation</h3>
+    <h3 class="auto-style12">A demo form for hotel room reservation</h3>
         <p class="auto-style5">&nbsp;</p>
 
     <form method="post">
@@ -44,11 +45,11 @@
         <fieldset>
             <legend>Customer Information</legend>
             <div class="auto-style12">
-            Full Name:&nbsp; <input id="fullName" name="Full Name" type="text" placeholder="Firstname Lastname" required/><br />
+            Full Name:&nbsp; <input id="fullname" name="Full Name" type="text" placeholder="First Last" required/><br />
                 <br />
-            Email Address:&nbsp; <input id="emailAddress" name="Email Address" type ="text" required /><br />
+            Email Address:&nbsp; <input id="emailaddress" name="Email Address" type ="text" required /><br />
                 <br />
-            Phone Number:&nbsp; <input id="phoneNumber" type="tel" name="teleNumber" pattern="[0-9]{10}" title="(###) ###-####" required/>
+            Phone Number:&nbsp; <input id="phonenumber" name="teleNumber" type="tel" pattern="[0-9]{10}" title="(###) ###-####" required/>
             </div>
         </fieldset>
             <br />
@@ -56,9 +57,9 @@
 
         <fieldset>
             <legend>Room Information</legend>
-            Arrival Date:&nbsp; <input id="arrivalDate" name="Arrival Date" type="date" value="mm/ dd/ yyyy" required/><br />
+            Arrival Date:&nbsp; <input id="arrivaldate" name="Arrival Date" type="date" value="mm/ dd/ yyyy" required/><br />
             <br />
-            Arrival Time:&nbsp; <input id="arrivalTime" name="Arrival Time" type="time" value="--:-- --" required/><br />
+            Arrival Time:&nbsp; <input id="arrivaltime" name="Arrival Time" type="time" value="--:-- --" required/><br />
             <br />
             Select a Room Type:&nbsp;
                 <select name ="room">
@@ -68,10 +69,10 @@
                 </select>
             <br />
             <br />
-            Number of Nights (valid number is from 1 to 30):&nbsp; <input id="numberOfNights" name="Number Of Nights" type="number" min="1" max="30" value ="1"/>
+            Number of Nights (valid number is from 1 to 30):&nbsp; <input id="numberofnights" name="Number Of Nights" type="number" min="1" max="30" value ="1"/>
             <br />
             <br />
-            Number of Guests (the maximum number of guests is 3):&nbsp; <input id="numberOfGuests" name="Number Of Guests" type="number" min="1" max="3" value ="0"/>
+            Number of Guests (the maximum number of guests is 3):&nbsp; <input id="numberofguests" name="Number Of Guests" type="number" min="1" max="3" value ="0"/>
             </fieldset>
             <br />
 
@@ -89,15 +90,15 @@
 
     <p>
         &nbsp;
-        <button id="resetButton" type="reset" value="clicked">	<img src="clearButton.gif" width="75" height="25" alt="submit" border="0"> 
+        <button id="resetbutton" type="reset" value="Reset"><img src="clearButton.gif" width="75" height="25" alt="submit" border="0"> 
 	</button>
-        <button id="submitButton" type="submit" value="Request Reservation"><img src="submitbutton.gif" width="75" height="25" alt="submit" border="0"> 
+        <button id="submitbutton" type="submit" value="Request Reservation"><img src="submitbutton.gif" width="75" height="25" alt="submit" border="0"> 
 	</button>
 
        </p>       
         </div>
     </form>
-    <footer class="auto-style10">
+    <footer class="auto-style13">
         <br />
         <br />
         Contact Information:<br />
