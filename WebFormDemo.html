@@ -44,11 +44,11 @@
         <fieldset>
             <legend>Customer Information</legend>
             <div class="auto-style12">
-            Full Name:&nbsp; <input id="fullName" name="Full Name" type="text" placeholder="Firstname Lastname"/><br />
+            Full Name:&nbsp; <input id="fullName" name="Full Name" type="text" placeholder="Firstname Lastname" required/><br />
                 <br />
-            Email Address:&nbsp; <input id="emailAddress" name="Email Address" type ="text" /><br />
+            Email Address:&nbsp; <input id="emailAddress" name="Email Address" type ="text" required /><br />
                 <br />
-            Phone Number:&nbsp; <input id="phoneNumber" type="tel" name="teleNumber" pattern="[0-9]{10}" title="(###) ###-####" />
+            Phone Number:&nbsp; <input id="phoneNumber" type="tel" name="teleNumber" pattern="[0-9]{10}" title="(###) ###-####" required/>
             </div>
         </fieldset>
             <br />
@@ -56,9 +56,9 @@
 
         <fieldset>
             <legend>Room Information</legend>
-            Arrival Date:&nbsp; <input id="arrivalDate" name="Arrival Date" type="date" value="mm/ dd/ yyyy"/><br />
+            Arrival Date:&nbsp; <input id="arrivalDate" name="Arrival Date" type="date" value="mm/ dd/ yyyy" required/><br />
             <br />
-            Arrival Time:&nbsp; <input id="arrivalTime" name="Arrival Time" type="time" value="--:-- --"/><br />
+            Arrival Time:&nbsp; <input id="arrivalTime" name="Arrival Time" type="time" value="--:-- --" required/><br />
             <br />
             Select a Room Type:&nbsp;
                 <select name ="room">
