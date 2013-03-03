@@ -1,0 +1,52 @@
+﻿body 
+{
+    width: 600px;
+    margin: 0 auto; 
+    text-align:center;
+}
+
+hr 
+{
+    background-color: #00FF00;
+    height:8px;
+}
+
+nav a
+{
+    margin:2em;
+    padding:10px;
+    text-decoration:none;
+}
+
+nav a:hover
+{
+    color:red;
+    text-transform:uppercase;
+    text-decoration:underline;
+}
+
+footer
+{
+    border-top:double;
+    padding-top:5px;
+}
+
+footer address span
+{
+    display:inline;
+    margin:0;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a
+{
+    text-decoration:none;
+}
+
+footer a:hover
+{
+    color:red;
+    text-transform:uppercase;
+    text-decoration:underline;
+}
