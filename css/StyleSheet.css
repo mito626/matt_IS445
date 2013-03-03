@@ -11,6 +11,15 @@ hr
     height:8px;
 }
 
+h2
+{
+    color: blue;
+}
+
+h3
+{
+    color: purple;
+}
 nav a
 {
     margin:2em;
@@ -49,4 +58,17 @@ footer a:hover
     color:red;
     text-transform:uppercase;
     text-decoration:underline;
+}
+
+form
+{
+    text-align:left;
+    border-style: outset;
+    border-color: #00FF00;
+    padding: 10px;
+}
+
+form fieldset
+{
+    padding:10px;
 }

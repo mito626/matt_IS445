@@ -14,16 +14,17 @@
                 <a href="http://Matt-is445-homework2.azurewebsites.net/aboutme.html">About Me</a>    
             </nav>
         </header>
+        <br />
         <h2>Welcome to My Web Form</h2>
         
-        <h3 class="auto-style12">A demo form for hotel room reservation</h3>
-        <p class="auto-style5">&nbsp;</p>
+        <h3>A demo form for hotel room reservation</h3>
+        <p>&nbsp;</p>
 
-        <form method="post">
-            <div class="auto-style12">
+        <form>
+            <div>
                 <fieldset>
                     <legend>Customer Information</legend>
-                    <div class="auto-style12">
+                    <div>
                         Full Name:&nbsp; <input id="fullname" name="Full Name" type="text" title="Please enter your name" placeholder="First Last" required /><br />
                         <br />
                         Email Address:&nbsp; <input id="emailaddress" name="Email Address" type ="text" title="Please enter your email address" required /><br />
@@ -31,7 +32,6 @@
                         Phone Number:&nbsp; <input id="phonenumber" name="Phone Number" type="tel" pattern="[0-9]{10}" title="(###) ###-####" required />
             </div>
                 </fieldset>
-            <br />
             <br />
 
             <fieldset>
@@ -54,7 +54,7 @@
                 Number of Guests (the maximum number of guests is 3): <input id="numberofguests" name="Number of Guests" type="number" min="1" max="3" value="0" />
             </fieldset>
                 <br />
-                <br />
+               
                 <fieldset>
                     <legend>Other Information</legend>
                     Promo Code:&nbsp; <input id="promocode" name="Promo Code" type="text" title="alpha numeric" pattern="[a-z][A-Z][0-9]{4}"/><br />
@@ -73,6 +73,7 @@
                 </p>
                 </div>
         </form>
+        <br />
     <footer>
             <address>
                 <span>Matt Ito&#169; Contact Information</span>
