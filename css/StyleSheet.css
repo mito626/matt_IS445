@@ -1,87 +1,104 @@
-﻿body 
+﻿/*Matt Ito  IS445  Homework 3*/
+
+/*page width and centered*/
+body
 {
     width: 600px;
-    margin: 0 auto; 
-    text-align:center;
+    margin: 0 auto;
+    text-align: center;
 }
 
-hr 
+/*green horizontal bar*/
+hr
 {
     background-color: #00FF00;
-    height:8px;
+    height: 8px;
 }
 
+/*blue text for header 2*/
 h2
 {
     color: blue;
 }
 
+/*purple color for header 3*/
 h3
 {
     color: purple;
 }
+
+/*add spacing and remove underline for links*/
 nav a
 {
-    margin:2em;
-    padding:10px;
-    text-decoration:none;
+    margin: 2em;
+    padding: 10px;
+    text-decoration: none;
 }
 
-nav a:hover
-{
-    color:red;
-    text-transform:uppercase;
-    text-decoration:underline;
-}
+    /*red color, uppercase, underline when hover over link*/
+    nav a:hover
+    {
+        color: red;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
 
+/*double line and spacing on footer bar*/
 footer
 {
-    border-top:double;
-    padding-top:5px;
+    border-top: double;
+    padding-top: 5px;
 }
 
+/*center and spacing for footer*/
 footer span
 {
-    display:inline;
-    margin:0;
+    display: inline;
+    margin: 0;    
     text-align: center;
     padding: 10px;
 }
 
+/*remove underline for email*/
 footer a
 {
-    text-decoration:none;
+    text-decoration: none;
 }
 
+/*red color, uppercase, underline for email*/
 footer a:hover
 {
-    color:red;
-    text-transform:uppercase;
-    text-decoration:underline;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
+/*green border and spacing around form*/
 form
 {
-    text-align:left;
+    text-align: left;
     border-style: outset;
     border-color: green;
     padding: 10px;
 }
 
+/*padding around fieldsets*/
 form fieldset
 {
-    padding:10px;
+    padding: 10px;
 }
 
+/*move image to right and adjust space*/
 img.sloth
 {
-    float:right;
-    width:175px;
-    height:225px;
+    float: right;
+    width: 175px;
+    height: 225px;
 }
 
+/*body text width*/
 article
 {
-    text-align:left;
+    text-align: left;
     width: 380px;
 }
