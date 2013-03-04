@@ -40,7 +40,7 @@ footer
     padding-top:5px;
 }
 
-footer address span
+footer span
 {
     display:inline;
     margin:0;
@@ -71,4 +71,17 @@ form
 form fieldset
 {
     padding:10px;
+}
+
+img.sloth
+{
+    float: right;
+    width:175px;
+    height:225px;
+}
+
+article
+{
+    text-align:left;
+    width: 380px;
 }
