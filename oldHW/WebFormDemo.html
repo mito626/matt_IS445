@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/StyleSheet.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Ito, Matt Homework 3</h1>
+            <hr />
+            <nav>
+                <a href="http://Matt-is445-homework3.azurewebsites.net/index.html">Home</a>
+                <a href="http://Matt-is445-homework3.azurewebsites.net/webformdemo.html">Web Form Demo</a>
+                <a href="http://Matt-is445-homework3.azurewebsites.net/aboutme.html">About Me</a>    
+            </nav>
+        </header>
+        <br />
+        <h2>Welcome to My Web Form</h2>
+        
+        <h3>A demo form for hotel room reservation</h3>
+        <p>&nbsp;</p>
+
+        <form>
+            <div>
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <div>
+                        Full Name:&nbsp; <input id="fullname" name="Full Name" type="text" title="Please enter your name" placeholder="First Last" required /><br />
+                        <br />
+                        Email Address:&nbsp; <input id="emailaddress" name="Email Address" type ="text" title="Please enter your email address" required /><br />
+                        <br />
+                        Phone Number:&nbsp; <input id="phonenumber" name="Phone Number" type="tel" pattern="[0-9]{10}" title="(###) ###-####" required />
+            </div>
+                </fieldset>
+            <br />
+
+            <fieldset>
+                <legend>Room Information</legend>
+                Arrival Date:&nbsp; <input id="arrivaldate" name="Arrival Date" type="date" value="mm/ dd/ yyyy" required /><br />
+                <br />
+                Arrival Time:&nbsp; <input id="arrivaltime" name="Arrival Time" type="time" value="--:-- --" required /><br />
+                <br />
+                Select a Room Type:&nbsp;
+                <select name="room">
+                    <option value="Luxury">Luxury</option>
+                    <option value="Standard">Standard</option>
+                    <option value="Economic">Economic</option>
+                </select>
+                <br />
+                <br />
+                Number of Nights (valid number is from 1 to 30):&nbsp; <input id="numberofnights" name="Number of Nights" type="number" min="1" max="30" value="1" />
+                <br />
+                <br />
+                Number of Guests (the maximum number of guests is 3): <input id="numberofguests" name="Number of Guests" type="number" min="1" max="3" value="0" />
+            </fieldset>
+                <br />
+               
+                <fieldset>
+                    <legend>Other Information</legend>
+                    Promo Code:&nbsp; <input id="promocode" name="Promo Code" type="text" title="alpha numeric" pattern="[a-z][A-Z][0-9]{4}"/><br />
+                    <br />
+                    Special Note:&nbsp; <textarea id="specialnotes" name="Special Notes" cols="50" rows="10" placeholder="Enter your special notes here"></textarea>
+                    <br />
+                    <br />
+                </fieldset>
+                <p>
+                            &nbsp;
+        <button id="resetbutton" type="reset" value="Reset"><img src="clearButton.gif" width="75" height="25" alt="submit" border="0"> 
+	</button>
+        <button id="submitbutton" type="submit" value="Request Reservation"><img src="submitbutton.gif" width="75" height="25" alt="submit" border="0"> 
+	</button>
+
+                </p>
+                </div>
+        </form>
+        <br />
+    <footer>
+            <address>
+                <span>Matt Ito&#169; Contact Information</span>
+                <span>Email: <a href="mailto:mito626@gmail.com">mito626@gmail.com</a></span>
+                <span>Phone: (310) 489-6154</span>
+            </address>
+        </footer>
+     
+</body>
+</html>
