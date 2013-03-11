@@ -37,7 +37,7 @@ nav
 footer
 {
     position: relative;
-    top: -200px;
+    top: -199px;
     width: 680px;
     height: 20px;
     text-align: center;
@@ -65,9 +65,9 @@ article section
 aside
 {
     position: relative;
-    left: 451px;
+    left: 449px;
     top: -200px;
-    width: 229px;
+    width: 230px;
     height: 199px;
     text-align: center;
     background-color: cyan;
