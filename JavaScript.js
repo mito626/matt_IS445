@@ -37,7 +37,7 @@
         document.write("</p>");
     }
 
-    /*number is not within range*/
+    /*number is not within range */
     else {
         document.write("<span>");
         document.writeln("<h2>Your input is " + userNumber
