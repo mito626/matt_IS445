@@ -16,4 +16,8 @@
         FinalExpDate.Text = ExpirationCalendar.SelectedDate.ToString
 
     End Sub
+
+    Protected Sub NameTextBox_TextChanged(sender As Object, e As EventArgs) Handles NameTextBox.TextChanged
+
+    End Sub
 End Class

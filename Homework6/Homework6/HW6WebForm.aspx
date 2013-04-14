@@ -13,20 +13,22 @@
         <div>
         <br />
             <%--First page, user name and address--%>
-        <asp:Wizard ID="Wizard1" runat="server" Height="176px" ActiveStepIndex="0" Width="604px">
+        <asp:Wizard ID="Wizard1" runat="server" Height="176px" ActiveStepIndex="1" Width="604px">
             <WizardSteps>
                 <asp:WizardStep runat="server" title="User Information">
                     <asp:Label ID="Label1" runat="server" Text="Name: "></asp:Label>
+                    &nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="NameTextBox" runat="server"></asp:TextBox>
                     <br />
                     <br />
                     <asp:Label ID="Label2" runat="server" Text="Address: "></asp:Label>
-                    <asp:TextBox ID="TextBox2" runat="server" Height="50px" TextMode="MultiLine"></asp:TextBox>
+                    &nbsp;<asp:TextBox ID="TextBox2" runat="server" Height="50px" TextMode="MultiLine"></asp:TextBox>
                 </asp:WizardStep>
 
                 <%--second page, credit card, card number, expiration date--%>
                 <asp:WizardStep runat="server" title="Payment Information">
                     <asp:Label ID="Label3" runat="server" Text="Card Type: "></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:DropDownList ID="CardDropDownList" runat="server">
                         <asp:ListItem>Visa</asp:ListItem>
                         <asp:ListItem>Master</asp:ListItem>
@@ -36,7 +38,7 @@
                     <br />
                     <br />
                     <asp:Label ID="Label4" runat="server" Text="Card Number: "></asp:Label>
-                    <asp:TextBox ID="CardNumberTextBox" runat="server" TextMode="Number"></asp:TextBox>
+                    &nbsp;<asp:TextBox ID="CardNumberTextBox" runat="server" TextMode="Number"></asp:TextBox>
                     <br />
                     <br />
                     <asp:Label ID="Label5" runat="server" Text="Expiration Date: "></asp:Label>
