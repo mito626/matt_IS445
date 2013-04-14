@@ -1,0 +1,14 @@
+﻿table, td, th
+{
+border:1px solid green;
+}
+
+tr {
+    background-color:yellow;
+    color:white;
+}
+
+span h2
+{
+    color: red;
+}
