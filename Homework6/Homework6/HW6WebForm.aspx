@@ -13,7 +13,7 @@
         <div>
         <br />
             <%--First page, user name and address--%>
-        <asp:Wizard ID="Wizard1" runat="server" Height="176px" ActiveStepIndex="1" Width="604px">
+        <asp:Wizard ID="Wizard1" runat="server" Height="176px" ActiveStepIndex="0" Width="604px">
             <WizardSteps>
                 <asp:WizardStep runat="server" title="User Information">
                     <asp:Label ID="Label1" runat="server" Text="Name: "></asp:Label>
