@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head runat="server"> 
     <title></title>
     <link href="CSS/HW7StyleSheet.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="cpHead" runat="server">

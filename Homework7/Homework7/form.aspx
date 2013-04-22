@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="cpMainContent" runat="server">
     <h2>Welcome to My Web Form</h2>
         <h4>A demo form for hotel room reservation</h4>
-            <div>
+            <div> 
                 <fieldset>
                     <legend>Customer Information</legend>
                     <div>
