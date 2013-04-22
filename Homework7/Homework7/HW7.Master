@@ -14,7 +14,7 @@
         <hr />
     </header>
     <nav>
-            <a href="index.aspx">Home</a>
+            <a href="HomePage.aspx">Home</a>
             <a href="form.aspx">Web Form Demo</a>
             <a href="about.aspx">About Me</a>   
             </nav>

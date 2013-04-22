@@ -86,7 +86,7 @@
     <Content Include="Sloth.jpg" />
     <Content Include="submitbutton.gif" />
     <Content Include="Web.config" />
-    <Content Include="index.aspx" />
+    <Content Include="HomePage.aspx" />
     <Content Include="form.aspx" />
     <Content Include="about.aspx" />
   </ItemGroup>
@@ -117,11 +117,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="index.aspx.designer.vb">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="HomePage.aspx.designer.vb">
+      <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="index.aspx.vb">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="HomePage.aspx.vb">
+      <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="form.aspx.designer.vb">
