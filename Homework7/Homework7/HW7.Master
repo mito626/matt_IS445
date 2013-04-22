@@ -1,7 +1,6 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="HW7.master.vb" Inherits="Homework7.HW7" %>
 
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>

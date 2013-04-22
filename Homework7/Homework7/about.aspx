@@ -3,7 +3,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cpMainContent" runat="server">
     <h2>About Myself</h2>
-    
         <img class="sloth" src="Sloth.jpg" />
         <article>
         <h3><strong>Education</strong></h3>
