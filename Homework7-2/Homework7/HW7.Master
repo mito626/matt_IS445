@@ -1,0 +1,36 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="HW7.master.vb" Inherits="Homework7.HW7" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="CSS/HW7StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="cpHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <h1>Ito, Matt Homework 7</h1>
+        <hr />
+    </header>
+    <nav>
+            <a href="HomePage.aspx">Home</a>
+            <a href="form.aspx">Web Form Demo</a>
+            <a href="about.aspx">About Me</a>   
+            </nav>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="cpMainContent" runat="server">       
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+        <br />
+     <footer>
+            <address>
+                <span>Matt Ito&#169; Contact Information</span>
+                <span>Email: <a href="mailto:mito626@gmail.com">mito626@gmail.com</a></span>
+                <span>Phone: (310) 489-6154</span>
+            </address>
+        </footer>
+</body>
+</html>
